@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 class="logo">DIGITAL BYTES</h1></a>
+        <section class="nav-links">
+            <div>
+                <a href="contactos.html" class="link"><p>Contactos</p></a>
+            </div>
+            <div>
+                <a href="carrinho.html"><div class="cartbg"></div></a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a class="profile" href="#"><div class="profilebg"></div></a></button>
+                <div class="dropdown-content">
+                    <a href="#">Perfil</a>
+                    <a href="#">Histórico</a>
+                    <a href="#">Definições</a>
+                    <a href="#">Terminar Sessão</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <h2 id="contact-title">CONTACTOS GERAIS</h2>
+    <section class="contact-info">
+        <div class="contact-methods">
+            <div class="contact-item center">
+                <div class="icon"></div>
+                <div class="left">
+                    <p><strong>Dúvidas /<br>Encomendas:</strong> digitalbytes@gmail.com</p>
+                    <p><strong>Suporte Técnico /<br>RMAs:</strong> digitalbytes@gmail.com</p>                    
+                </div>
+
+            </div>
+            <div class="contact-item center">
+                <div class="icon"></div>
+                <div class="left">
+                    <p><strong>Apoio ao Cliente:</strong> 243 745 965</p>
+                    <p><strong>Chamada para a rede fixa nacional</strong></p>
+                    <p><strong>Contacto preferencial por e-mail.</strong></p>                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <div class="contact-form-container">
+        <form method="post" class="contact-form" data-netlify="true">
+            <h2>Entre em Contato</h2>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Duvida:</label>
+                <textarea id="message" name="message" rows="6" columns="40" required></textarea>
+            </div>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+    <footer>
+        <h1 class="logo">DIGITAL BYTES</h1>
+        <section class="footer-flex">
+            <section class="contactos-footer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.3602904537365!2d-8.685433000000002!3d39.234692200000026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18ee6ddc50c5d3%3A0x534d7a6da473c77d!2sISLA%20-%20Instituto%20Superior%20de%20Gest%C3%A3o%20e%20Administra%C3%A7%C3%A3o!5e0!3m2!1sen!2spt!4v1718096467331!5m2!1sen!2spt" width="450" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contactos-text">
+                    <p class="title">Contactos</p>
+                    <p>+351 243 745 965</p>
+                    <p>placeholder@gmail.com</p>
+                    <p>De 2ª a 6ª Feira</p>
+                </div>
+            </section>
+            <section class="pag-socials-footer">
+                <div class="pagamentos">
+                    <p>Pagamento Seguro</p>
+                    <div class="pagamentos-img">
+                        <a href="#" class="pag-img pag-mastercard"></a>
+                        <a href="#" class="pag-img pag-visa"></a>
+                        <a href="#" class="pag-img pag-mb w-8"></a>
+                        <a href="#" class="pag-img pag-mbway w-16"></a>
+                        <a href="#" class="soc-img pag-klarna w-16"></a>
+                        <a href="#" class="soc-img pag-sequra w-16"></a>
+                    </div>
+                </div>
+                <div class="socials">
+                    <p>Redes Sociais</p>
+                    <div class="links-flex">
+                        <a href="#" class="soc-img soc-twitter"></a>
+                        <a href="#" class="soc-img soc-linkedin"></a>
+                        <a href="#" class="soc-img soc-instagram"></a>
+                        <a href="#" class="soc-img soc-facebook"></a>
+                        <a href="#" class="soc-img soc-tiktok"></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr>
+        <p class="copyright">&copy; 2024, DIGITAL BYTES - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+</html>
