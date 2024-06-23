@@ -514,3 +514,17 @@ button:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.icon-email {
+    background-image: url('images/email.svg');
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon-phone {
+    background-image: url('images/phone.svg');
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
